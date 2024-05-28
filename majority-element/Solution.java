@@ -1,9 +1,14 @@
-class Solution {
+// package majority;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Solution {
     public List<Integer> majorityElement(int[] nums) {
 
         int n = nums.length;
         int k = n/3;
-        List ans = new ArrayList();
+        List<Integer> ans = new ArrayList<>();
 
         // Here i am going to implement the brute force approach
         

@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public int maxSubArray(int[] nums) {
         // Since We are only asked for the sum, so we can use kadane's
         // algorithm to find out the largest subarray sum

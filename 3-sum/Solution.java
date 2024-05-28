@@ -1,4 +1,10 @@
-class Solution {
+// package DSA;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+public class Solution {
     private int searchElement(int k, int start, int end, int[] nums) {
         int searchIndex = -1;
         while(start <= end) {
