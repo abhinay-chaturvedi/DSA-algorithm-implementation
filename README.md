@@ -1,1 +1,1 @@
-Important DSA Algorithim implementation for interview.
+Important DSA Algorithm implementation for interview.
