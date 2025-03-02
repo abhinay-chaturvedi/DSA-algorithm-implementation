@@ -13,7 +13,7 @@ public class KMP {
         int n = s.length();
         int arr[] = new int[n];
         int i = 1, j = 0;
-        int cnt = 0;
+        // int cnt = 0;
         while(i < n) {
             // System.out.println(cnt++);
             if(s.charAt(i) == s.charAt(j)) {
