@@ -4,9 +4,12 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class RabinKarp {
-    // This is the class for Rabin karp algorith will store each 
+    // This is the class for Rabin karp algorithm 
     // So this call provide the funciton which takes string s, and pattern p
     // and will return the occurrences of p in s;
+    // Also all the utils methods are public So that we can use this alogrithm based on 
+    // custom need
+    // Also u can choose p and mod based on your choice by providing in the constructor
     private long p = 31;
     private int mod =  (int) (1e9 + 7);
     public RabinKarp() {
@@ -39,7 +42,7 @@ public class RabinKarp {
         }
         return hs;
     }
-    public List<Integer> getOccurences(String s, String p) {
+    public List<Integer> getOccurrences(String s, String p) {
         List<Integer> ans = new ArrayList<>();
         if(s.length() < p.length()) return ans;
         long[] p_pow = this.buildPowArray(s.length());
