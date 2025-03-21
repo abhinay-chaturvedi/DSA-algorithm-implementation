@@ -1,5 +1,5 @@
-package graph.bridges_in_graph_tarjan_algo;
 
+package graph.bridges_in_graph;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
